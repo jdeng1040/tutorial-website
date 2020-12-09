@@ -13,9 +13,13 @@ body {
 }
 
 a {
-  color: white;
+  color: rgb(230, 230, 121);
+  text-decoration: none;
 }
 
+a:hover {
+  color: rgb(107, 107, 38);
+}
 .card {
   border: 5px solid rgb(57, 202, 57);
   padding: 16px;
@@ -31,6 +35,7 @@ a {
   color: seagreen;
 }
 
+
 img {
   height: 400px;
   width: 500px;
@@ -39,14 +44,17 @@ img {
 
 #linkedin {
   color: rgb(40,103,178);
+  padding: 5px;
 }
 
 #mail {
   color: red;
+  padding: 5px;
 }
 
 .socials {
-  padding: 16px 0px;
+  padding: 8px 0px;
+  
 }
 
 .form {
@@ -55,4 +63,10 @@ img {
   border: 2px solid orange;
   border-radius: 5px;
   margin: 15px 0px;
+}
+
+#gif {
+  height: 400px;
+  width: 500px;
+  border-radius: 90%;
 }
